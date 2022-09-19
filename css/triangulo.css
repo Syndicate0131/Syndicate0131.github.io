@@ -1,0 +1,54 @@
+.title{
+    display: flex;
+
+    height: 7rem;
+    background-color: #5CB8E4;
+    flex-direction: row;
+
+}
+.title h1{
+    margin: 2rem;
+    margin-left: 35rem;
+}
+.vol{
+    margin: 0.5rem;
+    border-radius: 40px;
+    height: 5rem;
+    width: 10rem;
+    background-color: #181818;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 7rem;
+    background-color: #5CB8E4;
+}
+.footer h1{
+    margin: 2rem;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44.2rem;
+    flex-direction: column;
+    font-size: 1.8rem;
+    background-color: #8758FF;
+}
+.cont1{
+text-align: center;
+}
+
+.cont1 input{
+    border-radius: 10px;
+}
+
+.cont1 button{
+    margin: 0.5rem;
+    border-radius: 40px;
+    height: 5rem;
+    width: 10rem;
+    background-color: #181818;
+    color: white;
+}

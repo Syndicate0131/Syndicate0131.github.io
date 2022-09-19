@@ -1,0 +1,78 @@
+.msn-error{
+    color: red;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.msn-error-visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+.frm-no-enviado {
+    color: red;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.frm-no-enviado-activo{
+    visibility: visible;
+    opacity: 1;
+}
+.title{
+    display: flex;
+
+    height: 7rem;
+    background-color: #5CB8E4;
+    flex-direction: row;
+
+}
+.title h1{
+    margin: 2rem;
+    margin-left: 35rem;
+}
+.vol{
+    margin: 0.5rem;
+    border-radius: 40px;
+    height: 5rem;
+    width: 10rem;
+    background-color: #181818;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 7rem;
+    background-color: #5CB8E4;
+}
+.footer h1{
+    margin: 2rem;
+}
+.cont{
+    height: 44.2rem;
+    background-color: #8758FF;
+}
+.cont1{
+    text-align: center;
+}
+.cont-g{
+    margin-left: 35rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.cont4 button{
+
+    border-radius: 40px;
+    height: 5rem;
+    width: 10rem;
+    margin-left: 53rem;
+    background-color: #181818;
+    color: white;
+}
+.frm-no-enviado{
+    margin-left: 49rem;
+    margin-top: -2rem;
+}

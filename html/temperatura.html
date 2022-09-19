@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+    <link rel="stylesheet" href="../css/temperatura.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header class="title">
+        <a href="../index.html"><button class="vol">Volver al Inicio</button></a> <h1>Ejercicio Temperatura</h1>
+    </header>
+    <div class="cont"> 
+        <div class="cont1">
+    <p>Temperatura a Digitar</p>
+    <select name="conve" id="ce" class="conv">
+            <option value="1">C</option>
+            <option value="2">F</option>
+            <option value="3">K</option>
+    </select>
+    <p>Temperatura a Calcular</p>
+    <select name="conva" id="ca" class="conv">
+        <option value="1">C</option>
+        <option value="2">F</option>
+        <option value="3">K</option>
+</select>
+</div>
+<br>
+<div class="cont2">
+<p>Temperatura a calcular</p>
+<input type="number" id="temp" placeholder="Digite la temperatura">
+<br>
+<br>
+    <button id="calc">Calcular</button>
+</div>
+    </div>
+    <footer class="footer">
+        <h1>Creado por Juan Quitian</h1>
+
+    </footer>
+</body>
+<script src="../js/temperatura.js"></script>
+</html>
